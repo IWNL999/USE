@@ -1,4 +1,4 @@
-f = open('26.txt').readlines()[1:]
+f = open('26/26 (3).txt').readlines()[1:]
 Sl = {i: [] for i in range(1, 10**5 + 1)}
  
 for i in f:
