@@ -1,0 +1,9 @@
+from ipaddress import *
+a = ip_network('172.16.80.0/255.255.248.0', 0)
+c = 0
+for i in a:
+    b = f'{i:b}'
+    if b.count('1')%2!=0:
+        c+=1
+        print(b)
+print(c)

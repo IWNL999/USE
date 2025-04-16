@@ -15,7 +15,7 @@ def get_neighbors(cluster_target):
         cluster_target.extend(neighbors)
         data -= set(neighbors)
 
-data = set([(float(n.split()[0]), float(n.split()[1])) for n in open("27b.txt")])
+data = set([(float(n.split()[0]), float(n.split()[1])) for n in open("27/1_27a.txt")])
 clusters = []
 while data:
     clusters.append([data.pop()])
